@@ -1,40 +1,20 @@
-# Human vs Machine Learning Project
-
-This project challenges you to explore the differences between human-designed algorithms and machine learning models. You will first create a human algorithm (pseudo-code) to classify data based on features, then translate that algorithm into Python. Next, you will train a K-Nearest Neighbors (KNN) classifier on the same dataset and compare your results. Finally, you will record a short screen-share with narration explaining your methods and observations.
-
-You may work alone or in groups of up to three. You may choose to work with the provided Penguins dataset, or select your own pre-cleaned dataset from the links below (I have suggested a few datasets as a guide, but you are welcome to select something different with approval).  The most important detail regarding your data-set is that your data needs to lend itself to classification.  For example, an iris with a sepal length of x and a petal width of y can be classified as ‘Setosa’. I also recommend that you use github codespaces, as you will need access to command-line tools that are unavailable in VS Code for EDU.
-
-[UCI Machine Learning Repository](https://archive.ics.uci.edu/datasets)
- - Iris (classic 3-class classification)
- - Mushroom (binary classification: edible/poisonous)
- - Student Performance (predict grades, numeric features)
-
-[Kaggle Datasets](https://www.kaggle.com/datasets)   *Note: For Kaggle, I will have to download the data for you and post on a shared drive.
- - Titanic survival dataset (binary classification)
- - Heart disease dataset (binary classification)
- - Breast cancer diagnosis (binary)
- - Penguins dataset (same as Kira, already cleaned)
-
----
-
 **Team Members:**  
-- Name 1  
-- Name 2 (if applicable)  
-- Name 3 (if applicable)
+- Mr J
 
-**Dataset Used:**  
-(e.g. Penguins, Iris, Titanic, etc.)
+**Dataset Used:**
+Iris Classification Dataset
 
 **Source:**  
-(UCI / Kaggle / Provided dataset)
+[UCI Iris Data](https://archive.ics.uci.edu/dataset/53/iris)</br>
+[Import ReadMe for Data](https://github.com/uci-ml-repo/ucimlrepo)
 
 **Target Variable (What we are predicting):**  
-(e.g. species, survival, diagnosis)
+Predicted Attribute: Class of Iris Plant
+ - Setosa, Versicolour, or Virginica
 
 **Features Used:**  
-- Feature 1  
-- Feature 2  
-- Feature 3
+- Sepal Length
+- Petal Length
 
 **[Video Review](https://)**
 
