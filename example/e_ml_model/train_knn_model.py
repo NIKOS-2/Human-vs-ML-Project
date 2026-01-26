@@ -25,7 +25,6 @@ k = 1
 knn = KNeighborsClassifier(n_neighbors=k)
 knn.fit(X_train, y_train)
 y_pred = knn.predict(X_test)
-print(y_pred[:10])
 
 # create confusion matrix
 conf_matrix_knn = pd.crosstab(
@@ -35,13 +34,12 @@ conf_matrix_knn = pd.crosstab(
     colnames=['Predicted']
 )
 
-# compute accuracy on training data
+# compute accuracy on test data
 accuracy_knn = (y_pred == y_test).mean()
 
-# display results on training data
+# display results on test data
 print(f"KNN classifier accuracy (k={k}): {accuracy_knn:.2%}\n")
 print(conf_matrix_knn)
-
 
 # Add a 'correct' column for the visualization
 test_df = X_test.copy()
