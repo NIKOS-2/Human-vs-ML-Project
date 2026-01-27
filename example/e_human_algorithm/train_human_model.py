@@ -36,7 +36,7 @@ print("\nFAILURE EXAMPLE")
 print(failure_row[['sepal width', 'petal width', target_name, 'human_prediction']])
 
 
-
+# Print a scatter plot showing correct vs incorrect predictions.
 os.makedirs("example/e_ml_model/plots", exist_ok=True)
 
 plt.figure(figsize=(8, 6))
